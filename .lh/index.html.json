@@ -1,0 +1,110 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 23,
+            "patches": [
+                {
+                    "date": 1759334388279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1759334405995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,11 @@\n-!\n\\ No newline at end of file\n+<!DOCTYPE html>\r\n+<html lang=\"en\">\r\n+<head>\r\n+    <meta charset=\"UTF-8\">\r\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+    <title>Document</title>\r\n+</head>\r\n+<body>\r\n+    \r\n+</body>\r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334428384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n <html lang=\"en\">\r\n <head>\r\n     <meta charset=\"UTF-8\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+    \r\n     <title>Document</title>\r\n </head>\r\n <body>\r\n     \r\n"
+                },
+                {
+                    "date": 1759334447232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\r\n     <meta charset=\"UTF-8\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n     \r\n-    <title>Document</title>\r\n+    <title></title>\r\n </head>\r\n <body>\r\n     \r\n </body>\r\n"
+                },
+                {
+                    "date": 1759334452303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\r\n     <meta charset=\"UTF-8\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n     \r\n-    <title></title>\r\n+    <title>Jay Patil | </title>\r\n </head>\r\n <body>\r\n     \r\n </body>\r\n"
+                },
+                {
+                    "date": 1759334464012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,11 @@\n <head>\r\n     <meta charset=\"UTF-8\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n     \r\n-    <title>Jay Patil | </title>\r\n+    <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n     \r\n+    \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334469976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,8 @@\n     \r\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n+    <\r\n     \r\n-    \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334478215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,8 @@\n     \r\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n-    <\r\n+    <!---->\r\n     \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334486294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,8 @@\n     \r\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n-    <!---->\r\n+    <!-- ====-->\r\n     \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334491760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,8 @@\n     \r\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n-    <!-- ====-->\r\n+    <!-- ================HE-->\r\n     \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334499760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,8 @@\n     \r\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n-    <!-- ================HE-->\r\n+    <!-- ================HEADER -->\r\n     \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334504813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,8 @@\n     \r\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n-    <!-- ================HEADER -->\r\n+    <!-- ================HEADER & N-->\r\n     \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334511909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,8 @@\n     \r\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n-    <!-- ================HEADER & N-->\r\n+    <!-- ================HEADER & navigation -->\r\n     \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334524053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,8 @@\n     \r\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n-    <!-- ================HEADER & navigation -->\r\n-    \r\n+    <!-- ================HEADER & navigation =================-->\r\n+    he\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334535510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,7 @@\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n     <!-- ================HEADER & navigation =================-->\r\n-    he\r\n+    <\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334543364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,8 @@\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n     <!-- ================HEADER & navigation =================-->\r\n-    <\r\n+    <header class=\"header\">\r\n+        <\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334550300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,7 @@\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n     <!-- ================HEADER & navigation =================-->\r\n-    <header class=\"header\">\r\n-        <\r\n+    <\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334555596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,7 @@\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n     <!-- ================HEADER & navigation =================-->\r\n-    <\r\n+    header\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334565605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,7 @@\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n     <!-- ================HEADER & navigation =================-->\r\n-    header\r\n+    \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334570933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,7 @@\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n     <!-- ================HEADER & navigation =================-->\r\n-    \r\n+    .hed\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334576497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,7 @@\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n     <!-- ================HEADER & navigation =================-->\r\n-    .hed\r\n+    <\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334581851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,7 @@\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n     <!-- ================HEADER & navigation =================-->\r\n-    <\r\n+    <header cl\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334587979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,7 @@\n     <title>Jay Patil | Web Developer</title>\r\n </head>\r\n <body>\r\n     <!-- ================HEADER & navigation =================-->\r\n-    <header class=\"header\">\r\n+    <header class=\"header\"></header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759334680575,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <header class=\"header\">\r\n         <nav class=\"nav\">\r\n             <a href=\"#\" class=\"nav__logo\">Jay Patil</a>\r\n \r\n-            ha\r\n+            hav\r\n         </nav>\r\n     </header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1759334388279,
+            "name": "Commit-0",
+            "content": "!"
+        }
+    ]
+}

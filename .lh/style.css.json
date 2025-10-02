@@ -1,0 +1,222 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 51,
+            "patches": [
+                {
+                    "date": 1759383985467,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1759383990627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-?\n\\ No newline at end of file\n+/* Go */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384006602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-/* Go */\n\\ No newline at end of file\n+/* = */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384012162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-/* = */\n\\ No newline at end of file\n+/* ========== Googl */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384020109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-/* ========== Googl */\n\\ No newline at end of file\n+/* ========== Google fonts ========== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384029284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-/* ========== Google fonts ========== */\n\\ No newline at end of file\n+/* ========== Google fonts ========== */\r\n+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384043947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,5 @@\n /* ========== Google fonts ========== */\r\n-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');\n\\ No newline at end of file\n+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');\r\n+/* ========== CSS Variables ========== */\r\n+:root {\r\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384049906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n /* ========== Google fonts ========== */\r\n @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');\r\n /* ========== CSS Variables ========== */\r\n :root {\r\n-    \n\\ No newline at end of file\n+    --head\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384056653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n /* ========== Google fonts ========== */\r\n @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');\r\n /* ========== CSS Variables ========== */\r\n :root {\r\n-    --head\n\\ No newline at end of file\n+    --header-height: 3.5rem;\r\n+\r\n+    /* ========== Colors ========== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384061707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,6 @@\n /* ========== CSS Variables ========== */\r\n :root {\r\n     --header-height: 3.5rem;\r\n \r\n-    /* ========== Colors ========== */\n\\ No newline at end of file\n+    /* ========== Colors ========== */\r\n+    f\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384067082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n :root {\r\n     --header-height: 3.5rem;\r\n \r\n     /* ========== Colors ========== */\r\n-    f\n\\ No newline at end of file\n+    --first-color\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384072179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n :root {\r\n     --header-height: 3.5rem;\r\n \r\n     /* ========== Colors ========== */\r\n-    --first-color\n\\ No newline at end of file\n+    --first-color: #5\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384078200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n :root {\r\n     --header-height: 3.5rem;\r\n \r\n     /* ========== Colors ========== */\r\n-    --first-color: #5\n\\ No newline at end of file\n+    --first-color: #66fcf\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384085798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n :root {\r\n     --header-height: 3.5rem;\r\n \r\n     /* ========== Colors ========== */\r\n-    --first-color: #66fcf\n\\ No newline at end of file\n+    --first-color: #66fcf1\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384091656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,6 @@\n :root {\r\n     --header-height: 3.5rem;\r\n \r\n     /* ========== Colors ========== */\r\n-    --first-color: #66fcf1\n\\ No newline at end of file\n+    --first-color: #66fcf1;\r\n+    --first-color-alt: #45a29e;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384099107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,6 @@\n     --header-height: 3.5rem;\r\n \r\n     /* ========== Colors ========== */\r\n     --first-color: #66fcf1;\r\n-    --first-color-alt: #45a29e;\n\\ No newline at end of file\n+    --first-color-alt: #45a29e;\r\n+    --\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384105216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n \r\n     /* ========== Colors ========== */\r\n     --first-color: #66fcf1;\r\n     --first-color-alt: #45a29e;\r\n-    --\n\\ No newline at end of file\n+    --title_\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384110383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,6 @@\n \r\n     /* ========== Colors ========== */\r\n     --first-color: #66fcf1;\r\n     --first-color-alt: #45a29e;\r\n-    --title_\n\\ No newline at end of file\n+    --title_color: #0b0c10;\r\n+    --text-color: #1f2833;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384121555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,6 @@\n \r\n     /* ========== Colors ========== */\r\n     --first-color: #66fcf1;\r\n     --first-color-alt: #45a29e;\r\n-    --title_color: #0b0c10;\r\n-    --text-color: #1f2833;\n\\ No newline at end of file\n+    --title_color: #;\r\n+    --text-color: #1f2833;  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384132532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,6 @@\n \r\n     /* ========== Colors ========== */\r\n     --first-color: #66fcf1;\r\n     --first-color-alt: #45a29e;\r\n-    --title_color: #;\r\n-    --text-color: #1f2833;  \n\\ No newline at end of file\n+    --title_color: #c5c6c7;\r\n+    --text-color: #a;  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384137730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n     /* ========== Colors ========== */\r\n     --first-color: #66fcf1;\r\n     --first-color-alt: #45a29e;\r\n     --title_color: #c5c6c7;\r\n-    --text-color: #a;  \n\\ No newline at end of file\n+    --text-color: #a7a7a7;  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384149366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,6 @@\n     /* ========== Colors ========== */\r\n     --first-color: #66fcf1;\r\n     --first-color-alt: #45a29e;\r\n     --title_color: #c5c6c7;\r\n-    --text-color: #a7a7a7;  \n\\ No newline at end of file\n+    --text-color: #a7a7a7;\r\n+    bi  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384155244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,5 @@\n     --first-color: #66fcf1;\r\n     --first-color-alt: #45a29e;\r\n     --title_color: #c5c6c7;\r\n     --text-color: #a7a7a7;\r\n-    bi  \n\\ No newline at end of file\n+    --body)  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384160502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,6 @@\n     --first-color: #66fcf1;\r\n     --first-color-alt: #45a29e;\r\n     --title_color: #c5c6c7;\r\n     --text-color: #a7a7a7;\r\n-    --body)  \n\\ No newline at end of file\n+    --body-color: #0b0c10;\r\n+      \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384166214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,5 +9,6 @@\n     --first-color-alt: #45a29e;\r\n     --title_color: #c5c6c7;\r\n     --text-color: #a7a7a7;\r\n     --body-color: #0b0c10;\r\n+    --container-color: #1f2833;\r\n       \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384172129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,6 @@\n     --title_color: #c5c6c7;\r\n     --text-color: #a7a7a7;\r\n     --body-color: #0b0c10;\r\n     --container-color: #1f2833;\r\n-      \n\\ No newline at end of file\n+    \r\n+    /* f */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384177207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,5 @@\n     --text-color: #a7a7a7;\r\n     --body-color: #0b0c10;\r\n     --container-color: #1f2833;\r\n     \r\n-    /* f */\n\\ No newline at end of file\n+    /* font and ty */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384202214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,6 @@\n     --text-color: #a7a7a7;\r\n     --body-color: #0b0c10;\r\n     --container-color: #1f2833;\r\n     \r\n-    /* font and ty */\n\\ No newline at end of file\n+    /* font and typography */\r\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384208907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,6 @@\n     --body-color: #0b0c10;\r\n     --container-color: #1f2833;\r\n     \r\n     /* font and typography */\r\n+    --body-font: 'Poppins', sans-serif;\r\n     \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384214334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,5 +13,5 @@\n     --container-color: #1f2833;\r\n     \r\n     /* font and typography */\r\n     --body-font: 'Poppins', sans-serif;\r\n-    \n\\ No newline at end of file\n+    --h2\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384221156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,5 +13,5 @@\n     --container-color: #1f2833;\r\n     \r\n     /* font and typography */\r\n     --body-font: 'Poppins', sans-serif;\r\n-    --h2\n\\ No newline at end of file\n+    --h1-font-size: 3.rem;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384226342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,5 +13,5 @@\n     --container-color: #1f2833;\r\n     \r\n     /* font and typography */\r\n     --body-font: 'Poppins', sans-serif;\r\n-    --h1-font-size: 3.rem;\n\\ No newline at end of file\n+    --h1-font-size: 2,5rem;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384232469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,5 +13,6 @@\n     --container-color: #1f2833;\r\n     \r\n     /* font and typography */\r\n     --body-font: 'Poppins', sans-serif;\r\n-    --h1-font-size: 2,5rem;\n\\ No newline at end of file\n+    --h1-font-size: 2.5rem;\r\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384238138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,5 @@\n     \r\n     /* font and typography */\r\n     --body-font: 'Poppins', sans-serif;\r\n     --h1-font-size: 2.5rem;\r\n-    \n\\ No newline at end of file\n+    --h2-font-size: 1.rem;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384243532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,6 @@\n     \r\n     /* font and typography */\r\n     --body-font: 'Poppins', sans-serif;\r\n     --h1-font-size: 2.5rem;\r\n-    --h2-font-size: 1.rem;\n\\ No newline at end of file\n+    --h2-font-size: 1.5rem;\r\n+    --h3-font-size: 1.25rem;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384249257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,5 +15,6 @@\n     /* font and typography */\r\n     --body-font: 'Poppins', sans-serif;\r\n     --h1-font-size: 2.5rem;\r\n     --h2-font-size: 1.5rem;\r\n-    --h3-font-size: 1.25rem;\n\\ No newline at end of file\n+    --h3-font-size: 1.25rem;\r\n+    --normal-font-size: .rem;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384256623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,5 +16,6 @@\n     --body-font: 'Poppins', sans-serif;\r\n     --h1-font-size: 2.5rem;\r\n     --h2-font-size: 1.5rem;\r\n     --h3-font-size: 1.25rem;\r\n-    --normal-font-size: .rem;\n\\ No newline at end of file\n+    --normal-font-size: 1rem;\r\n+    --small-font-size: 0.75rem;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384262405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,5 @@\n     --h1-font-size: 2.5rem;\r\n     --h2-font-size: 1.5rem;\r\n     --h3-font-size: 1.25rem;\r\n     --normal-font-size: 1rem;\r\n-    --small-font-size: 0.75rem;\n\\ No newline at end of file\n+    --small-font-size: 0.87rem;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384268775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,7 @@\n     --h1-font-size: 2.5rem;\r\n     --h2-font-size: 1.5rem;\r\n     --h3-font-size: 1.25rem;\r\n     --normal-font-size: 1rem;\r\n-    --small-font-size: 0.87rem;\n\\ No newline at end of file\n+    --small-font-size: 0.875rem;\r\n+\r\n+    /* font weight */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384273838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,5 +19,7 @@\n     --h3-font-size: 1.25rem;\r\n     --normal-font-size: 1rem;\r\n     --small-font-size: 0.875rem;\r\n \r\n-    /* font weight */\n\\ No newline at end of file\n+    /* font weight */\r\n+    --font-medium: 500;\r\n+    --font-semi-bold: 600;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384291908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,5 +21,6 @@\n     --small-font-size: 0.875rem;\r\n \r\n     /* font weight */\r\n     --font-medium: 500;\r\n-    --font-semi-bold: 600;\n\\ No newline at end of file\n+    --font-semi-bold: 600;\r\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384301635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,5 +22,5 @@\n \r\n     /* font weight */\r\n     --font-medium: 500;\r\n     --font-semi-bold: 600;\r\n-    \n\\ No newline at end of file\n+}\r\n"
+                },
+                {
+                    "date": 1759384309721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,4 +23,5 @@\n     /* font weight */\r\n     --font-medium: 500;\r\n     --font-semi-bold: 600;\r\n }\r\n+/* + */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384314948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n     /* font weight */\r\n     --font-medium: 500;\r\n     --font-semi-bold: 600;\r\n }\r\n-/* + */\n\\ No newline at end of file\n+/* ========= BASE */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384320291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n     /* font weight */\r\n     --font-medium: 500;\r\n     --font-semi-bold: 600;\r\n }\r\n-/* ========= BASE */\n\\ No newline at end of file\n+/* ========= BASE STYLES = */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384325489,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n     /* font weight */\r\n     --font-medium: 500;\r\n     --font-semi-bold: 600;\r\n }\r\n-/* ========= BASE STYLES = */\n\\ No newline at end of file\n+/* ========= BASE STYLES &  */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384335916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n     /* font weight */\r\n     --font-medium: 500;\r\n     --font-semi-bold: 600;\r\n }\r\n-/* ========= BASE STYLES &  */\n\\ No newline at end of file\n+/* ========= BASE STYLES & RESET ========= */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384343193,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n     /* font weight */\r\n     --font-medium: 500;\r\n     --font-semi-bold: 600;\r\n }\r\n-/* ========= BASE STYLES & RESET ========= */\n\\ No newline at end of file\n+/* ========= BASE STYLES & RESET =========   */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384348238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n     /* font weight */\r\n     --font-medium: 500;\r\n     --font-semi-bold: 600;\r\n }\r\n-/* ========= BASE STYLES & RESET =========   */\n\\ No newline at end of file\n+/* ========= BASE STYLES & RESET =========  */\r\n"
+                },
+                {
+                    "date": 1759384360172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,4 +24,5 @@\n     --font-medium: 500;\r\n     --font-semi-bold: 600;\r\n }\r\n /* ========= BASE STYLES & RESET =========  */\r\n+/\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384365273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,5 +24,5 @@\n     --font-medium: 500;\r\n     --font-semi-bold: 600;\r\n }\r\n /* ========= BASE STYLES & RESET =========  */\r\n-/* THIS I */\n\\ No newline at end of file\n+/* THIS IS */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1759384372787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,5 +24,5 @@\n     --font-medium: 500;\r\n     --font-semi-bold: 600;\r\n }\r\n /* ========= BASE STYLES & RESET =========  */\r\n-/* This is */\n\\ No newline at end of file\n+/* This is  */\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1759383985467,
+            "name": "Commit-0",
+            "content": "?"
+        }
+    ]
+}

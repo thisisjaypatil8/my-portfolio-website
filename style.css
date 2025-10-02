@@ -161,3 +161,52 @@ home_title{
     padding: 0 1rem;
 }
 
+/* ============= About section styles ============= */
+.about_container{
+    display: grid;
+    gap: 2rem;
+    max-width: 986px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+}
+
+/* Center the container on large screens */
+@media screen and (min-width: 1024px) {
+    .about_container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.about_img {
+    width: 250px;
+    height: 250px;
+    background-color: var(--container-color);
+    border: 5px solid var(--first-color);
+    border-radius: .75rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.about_text {
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* =============== Responsive layout for about section =============== */
+@media screen and (min-width: 768px) {
+    .about_container {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .about_img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .about_text {
+        text-align: left;
+    }
+}

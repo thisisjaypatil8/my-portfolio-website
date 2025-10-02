@@ -83,4 +83,49 @@ h1, h2, h3 {
         box-shadow: 0 .5rem 1rem rgba(102, 252, 241, .3);
     }
 
-    
+/* ================= Header & Navigation styles ================= */
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--body-color);
+    z-index: 100;
+    border-bottom: 1px solid var(--container-color);
+}
+
+.nav{
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* We need some space on the sides */
+    max-width: 1024px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+/* On larger screens, center the container */
+@media screen and (min-width: 1024px) {
+    .nav {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.nav_logo, .nav_link {
+    color: var(--title_color);
+    font-weight: var(--font-medium);
+}
+
+.nav_logo:hover {
+    color: var(--first-color);
+}
+
+.nav_list {
+    display: flex;
+    column-gap: 2rem;
+}
+.nav_link:hover {
+    color: var(--first-color);
+}
